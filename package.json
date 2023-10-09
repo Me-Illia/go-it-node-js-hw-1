@@ -1,0 +1,21 @@
+{
+  "name": "home-work-node-1",
+  "version": "1.0.0",
+  "description": "home work node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "illia Cheche",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.1",
+    "yargs": "^17.7.2"
+  }
+}
